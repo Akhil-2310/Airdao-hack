@@ -8,7 +8,7 @@ import {
 import { BrowserProvider, Contract, ethers, parseUnits } from "ethers";
 import { useNavigate } from "react-router-dom";
 
-const commerceContractAddress = "0x87C4D39C26Ee455b56e8a1D407C2a8458b21F310";
+const commerceContractAddress = "0x187B1D59C9Cf36e174a6866070D9E65d71ccdbDF";
 const commerceABI = [
   {
     inputs: [
