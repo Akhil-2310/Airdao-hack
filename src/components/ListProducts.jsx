@@ -383,8 +383,7 @@ createWeb3Modal({
 });
 
 
-const USDTAddress = "0x1abFB5a6B1c8AA5eB928f2447ED2b22d471b38A3";
-const DAIAddress = "0xC817c2C63178877069107873489ea69819f1A537";
+const USDCAddress = "0xFF9F502976E7bD2b4901aD7Dd1131Bb81E5567de";
 
 
 
@@ -429,10 +428,8 @@ const ListProducts = () => {
     try {
       let priceInWei;
       if (formData.currency === "0x323e78f944A9a1FcF3a10efcC5319DBb0bB6e673") {
-        // USDT has 6 decimals
         priceInWei = ethers.parseUnits(formData.price.toString(), 6);
       } else {
-        // DAI has 18 decimals
         priceInWei = ethers.parseUnits(formData.price.toString(), 18);
       }
 
